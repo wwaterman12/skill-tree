@@ -1,0 +1,26 @@
+{
+  "name": "skill-tree",
+  "version": "1.0.0",
+  "description": "An educational resource for people who want to work in tech",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwaterman12/skill-tree.git"
+  },
+  "author": "Wes Waterman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwaterman12/skill-tree/issues"
+  },
+  "homepage": "https://github.com/wwaterman12/skill-tree#readme",
+  "dependencies": {
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
