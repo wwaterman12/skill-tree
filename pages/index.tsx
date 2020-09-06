@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import PageNavBar from "../components/NavBar";
 import PageTitle from "../components/PageTitle";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 const HomePage = () => {
   return (
     <div>
-      <NavBar />
+      <PageNavBar />
       <Container fluid className={styles.titleContainer}>
         <Row>
           <Col md={6} sm={12}>
