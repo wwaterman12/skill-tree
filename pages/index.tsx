@@ -1,12 +1,22 @@
-import NavBar from "../src/components/NavBar";
+import NavBar from "../components/NavBar";
+import PageTitle from "../components/PageTitle";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import styles from "./styles.module.css";
 
 const HomePage = () => {
   return (
     <div>
       <NavBar />
-      <h1>
-        Your jumping off pooint to playing well with others at [TECH COMPANY]
-      </h1>
+      <Container fluid className={styles.titleContainer}>
+        <Row>
+          <Col md={6} sm={12}>
+            <PageTitle />
+          </Col>
+          <Col md={6} sm={0} />
+        </Row>
+      </Container>
     </div>
   );
 };
