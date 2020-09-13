@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .navbarDropDown:hover div[aria-labelledby="basic-nav-dropdown"] {
+    display: block;
+  }
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  top: 7px;
+  right: 8px;
+}
